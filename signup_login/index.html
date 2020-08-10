@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>SignUp & Login</title>
+        <link
+            rel="stylesheet"
+            href="./../style/main.css">
+        <script
+            src="js/app.js"></script>
+        <script
+            src="js/validate.js"></script>
+    </head>
+    <body>
+        <section class="widget-overlay">
+            <div class="widget bg-dark shadow p-5">
+
+                <!-- Toggle Button -->
+                <div class="d-flex">
+                    <button
+                        id="signup"
+                        onclick="onBtnToggle()"
+                        type="button"
+                        class="btn btn-primary p-2 w-50">
+                        Sign Up
+                    </button>
+                    <button
+                        id="login"
+                        onclick="onBtnToggle()"
+                        type="button"
+                        class="btn btn-secondary p-2 w-50">
+                        Log In
+                    </button>
+                </div>
+
+                <!-- Form -->
+                <div id="templateOutlet"></div>
+            </div>
+        </section>
+    </body>
+</html>
